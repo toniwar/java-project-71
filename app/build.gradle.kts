@@ -26,6 +26,9 @@ dependencies {
     implementation("info.picocli:picocli:4.7.5")
     annotationProcessor("info.picocli:picocli-codegen:4.7.5")
 
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.16.1")
+
 }
 
 tasks.test {
